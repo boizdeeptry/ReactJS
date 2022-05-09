@@ -1,0 +1,87 @@
+.chatApp {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin: 0 auto;
+}
+.chatApp-listChats {
+  width: 40%;
+  padding: 20px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.chatApp-listChat {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.chatApp-contentChat {
+  width: 60%;
+}
+.chatApp-listChat__infor {
+  width: 100%;
+}
+.chatApp-listChat__infor-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.chatApp-listChat-infor-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.chatApp-listChat-infor-numberChat {
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  background-color: orange;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+}
+.chatApp-contentChat-userName {
+  display: flex;
+  align-items: center;
+  height: 20%;
+  padding: 20px;
+  border-top: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.chatApp-contentChat-content {
+  height: 80%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.chatApp-contentChat-itsMe {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.chatApp-contentChat-me {
+  padding: 10px 20px;
+  border-radius: 12px;
+  background-color: blue;
+  color: wheat;
+  width: 252px;
+}
+.chatApp-contentChat-bots {
+  display: flex;
+  justify-content: flex-end;
+}
+.chatApp-contentChat-bot {
+  padding: 10px 20px;
+  border-radius: 12px;
+  color: wheat;
+  background-color: aqua;
+  width: 100%;
+  max-width: 252px;
+}
